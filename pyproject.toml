@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "[[ModifierName]]"
 version = "[[VersionNumber]]"
 description = "[[ShortDescription]]"
+keywords = ["ovito", "python-script-modifier"]
 authors = [{name = "[[Author1Name]]", email = "[[Autor1Email]]"}, {name = "[[Author2Name]]", email = "[[Autor2Email]]"}]
 maintainers = [{name = "[[Maintainer1Name]]", email = "[[Maintainer1Email]]"}, {name = "[[Maintainer2Name]]", email = "[[Maintainer2Email]]"}]
 license = {text = "[[License]]"}
