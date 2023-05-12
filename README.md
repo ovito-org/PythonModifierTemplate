@@ -5,6 +5,7 @@ This repository contains a template to create your own Python script modifier wh
 
 ## Getting Started
 
+1. Click the "Use this template" button to create a new repository.
 1. Rename src/ModifierName to reflect the name of your modifier.
 2. Rename `ModifierName` to the name of your module and modifier class and implement its modify method.
 3. If your modifier needs access to more than one frame or frames from an external trajectory you can uncomment and implement the `input_caching_hints` method. More details on this method can be found in the [OVITO documentation](https://www.ovito.org/docs/current/python/introduction/custom_modifiers.html#writing-custom-modifiers-advanced-interface). Otherwise, you can delete it.
