@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "[[Human readable modifier name]]"
+name = "[[ModifierName]]"
 version = "[[Version number]]"
 description = "[[Short description]]"
 keywords = ["ovito", "python-script-modifier"]
