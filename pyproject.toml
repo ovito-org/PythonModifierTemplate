@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "[[ModifierName]]"
+version = "[[VersionNumber]]"
+description = "[[ShortDescription]]"
+authors = [{name = "[[Author1Name]]", email = "[[Autor1Email]]"}, {name = "[[Author2Name]]", email = "[[Autor2Email]]"}]
+maintainers = [{name = "[[Maintainer1Name]]", email = "[[Maintainer1Email]]"}, {name = "[[Maintainer2Name]]", email = "[[Maintainer2Email]]"}]
+license = {text = "[[License]]"}
+readme = "README.md"
+requires-python = "[[>=3.7]]"
+# dependencies = [
+#     "[[dependency1]]",
+#     "[[dependency2 == Version]]",
+# ]
+
+[project.urls]
+repository = "[[Repository Link]]"
+
+[project.entry-points.'OVITO.Modifier']
+ModifierName = "[[ModifierName]]:[[ModifierName]]"
+
+[tool.setuptools.packages.find]
+where = ["src"]
