@@ -12,10 +12,11 @@ maintainers = [{name = "[[Maintainer 1 name]]", email = "[[Maintainer 1 email]]"
 license = {text = "[[License]]"}
 readme = "README.md"
 requires-python = "[[>=3.7]]"
-# dependencies = [
-#     "[[dependency1]]",
-#     "[[dependency2 == Version]]",
-# ]
+dependencies = [
+    "ovito >= [[VersionNumber]]", # OVITO must be >=3.9!
+    # "[[dependency1]]",
+    # "[[dependency2 == Version]]",
+]
 
 [project.urls]
 repository = "[[Repository Link]]"

@@ -11,7 +11,7 @@
 [[Usage example]]
 
 ## Technical information / dependencies
-- Tested on OVITO version [[3.x.x]]
+- Tested on OVITO version [[VersionNumber]]
 
 ## Contact
 [[Maintainer1Name]] [[Maintainer1Email]]
