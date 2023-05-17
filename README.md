@@ -1,4 +1,4 @@
-# PythonScriptModifierTemplate
+# Python Modifier Template
 
 Template for a custom Python-based modifier that hooks into OVITO and can easily be shared with other users.
 
