@@ -13,11 +13,11 @@
 ## Installation
 - OVITO PRO built-in Python interpreter
 ```
-ovitos -m pip install --user [[Repository Link]]/[[Branch]]/archive.zip
+ovitos -m pip install --user git+[[Repository Link]].git
 ``` 
 - Standalone Python package or Conda environment
 ```
-pip install --user [[Repository Link]]/[[Branch]]/archive.zip
+pip install --user git+[[Repository Link]].git
 ```
 - Please note that the `--user` tag is recommended but optional and depends on your Python installation.
 
