@@ -1,5 +1,5 @@
 # [[ModifierName]]
-[[One line description]]
+[[One-line description]]
 
 ## Description
 [[Full description]]
@@ -11,15 +11,16 @@
 [[Usage example]]
 
 ## Installation
-- OVITO PRO built-in Python interpreter
-```
-ovitos -m pip install --user git+[[Repository Link]].git
-``` 
-- Standalone Python package or Conda environment
-```
-pip install --user git+[[Repository Link]].git
-```
-- Please note that the `--user` tag is recommended but optional and depends on your Python installation.
+- OVITO Pro [integrated Python interpreter](https://docs.ovito.org/python/introduction/installation.html#ovito-pro-integrated-interpreter):
+  ```
+  ovitos -m pip install --user git+[[Repository Link]].git
+  ``` 
+  The `--user` option is recommended and [installs the package in the user's site directory](https://pip.pypa.io/en/stable/user_guide/#user-installs).
+
+- Other Python interpreters or Conda environments:
+  ```
+  pip install git+[[Repository Link]].git
+  ```
 
 ## Technical information / dependencies
 - Tested on OVITO version [[VersionNumber]]
