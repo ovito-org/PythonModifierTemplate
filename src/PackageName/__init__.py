@@ -1,3 +1,6 @@
+#### Python Modifier Name ####
+# Description of your Python-based modifier.
+
 from ovito.data import DataCollection
 from ovito.pipeline import ModifierInterface
 from traits.api import *
