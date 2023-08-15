@@ -1,4 +1,4 @@
-# [[ModifierName]]
+# [[Modifier Name]]
 [[One-line description]]
 
 ## Description
