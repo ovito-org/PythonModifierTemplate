@@ -28,7 +28,7 @@ os: [ubuntu-latest, macos-latest, windows-latest]
 python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
 ```
 
-An example can be found [here](https://github.com/nnn911/GenerateRandomSolution).
+An example can be found [here](https://github.com/ovito-org/GenerateRandomSolution).
 
 As of August 16, 2023, according to the [GitHub documentation](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions), *"GitHub Actions usage is free for standard GitHub-hosted runners in public repositories, and for self-hosted runners."* Please refer to the GitHub documentation if you are uncertain about incurring costs.
 
